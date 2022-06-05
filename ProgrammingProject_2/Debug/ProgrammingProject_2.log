@@ -1,0 +1,9 @@
+﻿  main.cpp
+C:\Users\kcj30\source\repos\ProgrammingProject_2\ProgrammingProject_2\main.cpp(127,22): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\kcj30\source\repos\ProgrammingProject_2\ProgrammingProject_2\main.cpp(146,22): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\kcj30\source\repos\ProgrammingProject_2\ProgrammingProject_2\main.cpp(169,22): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\kcj30\source\repos\ProgrammingProject_2\ProgrammingProject_2\main.cpp(184,23): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\kcj30\source\repos\ProgrammingProject_2\ProgrammingProject_2\main.cpp(223,22): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\kcj30\source\repos\ProgrammingProject_2\ProgrammingProject_2\main.cpp(15,8): warning C4101: 'readFile' :참조되지 않은 지역 변수입니다.
+C:\Users\kcj30\source\repos\ProgrammingProject_2\ProgrammingProject_2\main.cpp(16,8): warning C4101: 'writeFile' :참조되지 않은 지역 변수입니다.
+  ProgrammingProject_2.vcxproj -> C:\Users\kcj30\source\repos\ProgrammingProject_2\Debug\ProgrammingProject_2.exe
