@@ -23,7 +23,7 @@ int main()
 	ifstream infile("account.txt");
 	string s;
 	int a = 0, b = 0, c = 0;
-	cout << Info.size() << endl;
+	//cout << Info.size() << endl;
 	while (infile.eof() == false)
 	{
 		/*infile >> s >> a >> b >> c;
@@ -51,12 +51,12 @@ int main()
 		if (!(infile >> a))
 			break;*/
 	}
-	cout << Info.size() << endl;
+	/*cout << Info.size() << endl;
 	for(auto a : Info)
 	{
 		 a->Info();
 		 cout << endl;
-	}
+	}*/
 	while (true)
 	{
 		cout << "=================¸Þ´º===================" << endl;
@@ -116,6 +116,18 @@ int main()
 					break;
 				}
 			}
+
+			ofstream writeOut2("account.txt", ios::trunc);
+			for (int i = 0; i < Info.size(); i++)
+			{
+				writeOut2 << Info[i]->getName() << endl;
+				writeOut2 << Info[i]->getAccountNumber() << endl;
+				writeOut2 << Info[i]->getAccountSecretNumber() << endl;
+				writeOut2 << Info[i]->getMoney() << endl;
+				//...
+			}
+
+
 		}
 		else if (cmd == 3)
 		{
